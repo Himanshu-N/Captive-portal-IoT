@@ -37,7 +37,7 @@ void setup() {
   Serial.setDebugOutput(true);
 
   pinMode(INT_LED, OUTPUT);  // Set the LED pin as output
-  delay(5000); // delay for stabilizing
+  delay(5000); // delay for stabilizing the relay
   WiFi.mode(WIFI_STA);
   wifi_set_opmode(STATION_MODE);
 
